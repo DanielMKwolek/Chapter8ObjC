@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6575FA9D1D87E97F00803CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FA9C1D87E97F00803CDD /* main.m */; };
+		6575FAA01D87E97F00803CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FA9F1D87E97F00803CDD /* AppDelegate.m */; };
+		6575FAA31D87E97F00803CDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FAA21D87E97F00803CDD /* ViewController.m */; };
+		6575FAA61D87E97F00803CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6575FAA41D87E97F00803CDD /* Main.storyboard */; };
+		6575FAA81D87E97F00803CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6575FAA71D87E97F00803CDD /* Assets.xcassets */; };
+		6575FAAB1D87E97F00803CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6575FAA91D87E97F00803CDD /* LaunchScreen.storyboard */; };
+		6575FAB61D87E97F00803CDD /* WorldTrotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FAB51D87E97F00803CDD /* WorldTrotterTests.m */; };
+		6575FAC11D87E97F00803CDD /* WorldTrotterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FAC01D87E97F00803CDD /* WorldTrotterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6575FAB21D87E97F00803CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6575FA901D87E97F00803CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6575FA971D87E97F00803CDD;
+			remoteInfo = WorldTrotter;
+		};
+		6575FABD1D87E97F00803CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6575FA901D87E97F00803CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6575FA971D87E97F00803CDD;
+			remoteInfo = WorldTrotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6575FA981D87E97F00803CDD /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6575FA9C1D87E97F00803CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6575FA9E1D87E97F00803CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6575FA9F1D87E97F00803CDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6575FAA11D87E97F00803CDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6575FAA21D87E97F00803CDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6575FAA51D87E97F00803CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6575FAA71D87E97F00803CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6575FAAA1D87E97F00803CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6575FAAC1D87E97F00803CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6575FAB11D87E97F00803CDD /* WorldTrotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6575FAB51D87E97F00803CDD /* WorldTrotterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTrotterTests.m; sourceTree = "<group>"; };
+		6575FAB71D87E97F00803CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6575FABC1D87E97F00803CDD /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6575FAC01D87E97F00803CDD /* WorldTrotterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorldTrotterUITests.m; sourceTree = "<group>"; };
+		6575FAC21D87E97F00803CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6575FA951D87E97F00803CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6575FAAE1D87E97F00803CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6575FAB91D87E97F00803CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6575FA8F1D87E97F00803CDD = {
+			isa = PBXGroup;
+			children = (
+				6575FA9A1D87E97F00803CDD /* WorldTrotter */,
+				6575FAB41D87E97F00803CDD /* WorldTrotterTests */,
+				6575FABF1D87E97F00803CDD /* WorldTrotterUITests */,
+				6575FA991D87E97F00803CDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6575FA991D87E97F00803CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6575FA981D87E97F00803CDD /* WorldTrotter.app */,
+				6575FAB11D87E97F00803CDD /* WorldTrotterTests.xctest */,
+				6575FABC1D87E97F00803CDD /* WorldTrotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6575FA9A1D87E97F00803CDD /* WorldTrotter */ = {
+			isa = PBXGroup;
+			children = (
+				6575FA9E1D87E97F00803CDD /* AppDelegate.h */,
+				6575FA9F1D87E97F00803CDD /* AppDelegate.m */,
+				6575FAA11D87E97F00803CDD /* ViewController.h */,
+				6575FAA21D87E97F00803CDD /* ViewController.m */,
+				6575FAA41D87E97F00803CDD /* Main.storyboard */,
+				6575FAA71D87E97F00803CDD /* Assets.xcassets */,
+				6575FAA91D87E97F00803CDD /* LaunchScreen.storyboard */,
+				6575FAAC1D87E97F00803CDD /* Info.plist */,
+				6575FA9B1D87E97F00803CDD /* Supporting Files */,
+			);
+			path = WorldTrotter;
+			sourceTree = "<group>";
+		};
+		6575FA9B1D87E97F00803CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6575FA9C1D87E97F00803CDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6575FAB41D87E97F00803CDD /* WorldTrotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6575FAB51D87E97F00803CDD /* WorldTrotterTests.m */,
+				6575FAB71D87E97F00803CDD /* Info.plist */,
+			);
+			path = WorldTrotterTests;
+			sourceTree = "<group>";
+		};
+		6575FABF1D87E97F00803CDD /* WorldTrotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6575FAC01D87E97F00803CDD /* WorldTrotterUITests.m */,
+				6575FAC21D87E97F00803CDD /* Info.plist */,
+			);
+			path = WorldTrotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6575FA971D87E97F00803CDD /* WorldTrotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6575FAC51D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotter" */;
+			buildPhases = (
+				6575FA941D87E97F00803CDD /* Sources */,
+				6575FA951D87E97F00803CDD /* Frameworks */,
+				6575FA961D87E97F00803CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldTrotter;
+			productName = WorldTrotter;
+			productReference = 6575FA981D87E97F00803CDD /* WorldTrotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6575FAB01D87E97F00803CDD /* WorldTrotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6575FAC81D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */;
+			buildPhases = (
+				6575FAAD1D87E97F00803CDD /* Sources */,
+				6575FAAE1D87E97F00803CDD /* Frameworks */,
+				6575FAAF1D87E97F00803CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6575FAB31D87E97F00803CDD /* PBXTargetDependency */,
+			);
+			name = WorldTrotterTests;
+			productName = WorldTrotterTests;
+			productReference = 6575FAB11D87E97F00803CDD /* WorldTrotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6575FABB1D87E97F00803CDD /* WorldTrotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6575FACB1D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */;
+			buildPhases = (
+				6575FAB81D87E97F00803CDD /* Sources */,
+				6575FAB91D87E97F00803CDD /* Frameworks */,
+				6575FABA1D87E97F00803CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6575FABE1D87E97F00803CDD /* PBXTargetDependency */,
+			);
+			name = WorldTrotterUITests;
+			productName = WorldTrotterUITests;
+			productReference = 6575FABC1D87E97F00803CDD /* WorldTrotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6575FA901D87E97F00803CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Arcore;
+				TargetAttributes = {
+					6575FA971D87E97F00803CDD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3YHJ3C68N2;
+						ProvisioningStyle = Automatic;
+					};
+					6575FAB01D87E97F00803CDD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3YHJ3C68N2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6575FA971D87E97F00803CDD;
+					};
+					6575FABB1D87E97F00803CDD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3YHJ3C68N2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6575FA971D87E97F00803CDD;
+					};
+				};
+			};
+			buildConfigurationList = 6575FA931D87E97F00803CDD /* Build configuration list for PBXProject "WorldTrotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6575FA8F1D87E97F00803CDD;
+			productRefGroup = 6575FA991D87E97F00803CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6575FA971D87E97F00803CDD /* WorldTrotter */,
+				6575FAB01D87E97F00803CDD /* WorldTrotterTests */,
+				6575FABB1D87E97F00803CDD /* WorldTrotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6575FA961D87E97F00803CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6575FAAB1D87E97F00803CDD /* LaunchScreen.storyboard in Resources */,
+				6575FAA81D87E97F00803CDD /* Assets.xcassets in Resources */,
+				6575FAA61D87E97F00803CDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6575FAAF1D87E97F00803CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6575FABA1D87E97F00803CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6575FA941D87E97F00803CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6575FAA31D87E97F00803CDD /* ViewController.m in Sources */,
+				6575FAA01D87E97F00803CDD /* AppDelegate.m in Sources */,
+				6575FA9D1D87E97F00803CDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6575FAAD1D87E97F00803CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6575FAB61D87E97F00803CDD /* WorldTrotterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6575FAB81D87E97F00803CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6575FAC11D87E97F00803CDD /* WorldTrotterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6575FAB31D87E97F00803CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6575FA971D87E97F00803CDD /* WorldTrotter */;
+			targetProxy = 6575FAB21D87E97F00803CDD /* PBXContainerItemProxy */;
+		};
+		6575FABE1D87E97F00803CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6575FA971D87E97F00803CDD /* WorldTrotter */;
+			targetProxy = 6575FABD1D87E97F00803CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6575FAA41D87E97F00803CDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6575FAA51D87E97F00803CDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6575FAA91D87E97F00803CDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6575FAAA1D87E97F00803CDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6575FAC31D87E97F00803CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6575FAC41D87E97F00803CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6575FAC61D87E97F00803CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YHJ3C68N2;
+				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcore.WorldTrotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6575FAC71D87E97F00803CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YHJ3C68N2;
+				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcore.WorldTrotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6575FAC91D87E97F00803CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3YHJ3C68N2;
+				INFOPLIST_FILE = WorldTrotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcore.WorldTrotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
+			};
+			name = Debug;
+		};
+		6575FACA1D87E97F00803CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3YHJ3C68N2;
+				INFOPLIST_FILE = WorldTrotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcore.WorldTrotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
+			};
+			name = Release;
+		};
+		6575FACC1D87E97F00803CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3YHJ3C68N2;
+				INFOPLIST_FILE = WorldTrotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcore.WorldTrotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WorldTrotter;
+			};
+			name = Debug;
+		};
+		6575FACD1D87E97F00803CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3YHJ3C68N2;
+				INFOPLIST_FILE = WorldTrotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcore.WorldTrotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WorldTrotter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6575FA931D87E97F00803CDD /* Build configuration list for PBXProject "WorldTrotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6575FAC31D87E97F00803CDD /* Debug */,
+				6575FAC41D87E97F00803CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6575FAC51D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6575FAC61D87E97F00803CDD /* Debug */,
+				6575FAC71D87E97F00803CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6575FAC81D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6575FAC91D87E97F00803CDD /* Debug */,
+				6575FACA1D87E97F00803CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6575FACB1D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6575FACC1D87E97F00803CDD /* Debug */,
+				6575FACD1D87E97F00803CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6575FA901D87E97F00803CDD /* Project object */;
+}
