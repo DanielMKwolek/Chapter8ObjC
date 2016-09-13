@@ -63,11 +63,17 @@
 - (BOOL)textField:(UITextField *)textField
 shouldChangeCharactersInRange:(NSRange)range
 replacementString:(NSString *)string {
+    NSCharacterSet *nonNum = [[NSCharacterSet alloc] init];
+    nonNum = [[NSCharacterSet characterSetWithCharactersInString:@"0123456789."] invertedSet];
+    BOOL replacementStringIsValid = [string isEqualToString:[string stringByTrimmingCharactersInSet:nonNum]];
+    
+    
+    
     NSRange existingRange = [textField.text rangeOfString:@"."];
     BOOL hasExistingDecimalSeparator = (existingRange.location != NSNotFound);
     NSRange newRange = [string rangeOfString:@"."];
     BOOL wantsNewDecimalSeparator = (newRange.location != NSNotFound);
-    if (hasExistingDecimalSeparator && wantsNewDecimalSeparator) {
+    if ((hasExistingDecimalSeparator && wantsNewDecimalSeparator) || !replacementStringIsValid) {
         return NO;
     } else {
         return YES; }
