@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6575FA9D1D87E97F00803CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FA9C1D87E97F00803CDD /* main.m */; };
 		6575FAA01D87E97F00803CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FA9F1D87E97F00803CDD /* AppDelegate.m */; };
-		6575FAA31D87E97F00803CDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FAA21D87E97F00803CDD /* ViewController.m */; };
+		6575FAA31D87E97F00803CDD /* ConversionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6575FAA21D87E97F00803CDD /* ConversionViewController.m */; };
 		6575FAA61D87E97F00803CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6575FAA41D87E97F00803CDD /* Main.storyboard */; };
 		6575FAA81D87E97F00803CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6575FAA71D87E97F00803CDD /* Assets.xcassets */; };
 		6575FAAB1D87E97F00803CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6575FAA91D87E97F00803CDD /* LaunchScreen.storyboard */; };
@@ -39,8 +39,8 @@
 		6575FA9C1D87E97F00803CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6575FA9E1D87E97F00803CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6575FA9F1D87E97F00803CDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6575FAA11D87E97F00803CDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6575FAA21D87E97F00803CDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6575FAA11D87E97F00803CDD /* ConversionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversionViewController.h; sourceTree = "<group>"; };
+		6575FAA21D87E97F00803CDD /* ConversionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversionViewController.m; sourceTree = "<group>"; };
 		6575FAA51D87E97F00803CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6575FAA71D87E97F00803CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6575FAAA1D87E97F00803CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			children = (
 				6575FA9E1D87E97F00803CDD /* AppDelegate.h */,
 				6575FA9F1D87E97F00803CDD /* AppDelegate.m */,
-				6575FAA11D87E97F00803CDD /* ViewController.h */,
-				6575FAA21D87E97F00803CDD /* ViewController.m */,
+				6575FAA11D87E97F00803CDD /* ConversionViewController.h */,
+				6575FAA21D87E97F00803CDD /* ConversionViewController.m */,
 				6575FAA41D87E97F00803CDD /* Main.storyboard */,
 				6575FAA71D87E97F00803CDD /* Assets.xcassets */,
 				6575FAA91D87E97F00803CDD /* LaunchScreen.storyboard */,
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6575FAA31D87E97F00803CDD /* ViewController.m in Sources */,
+				6575FAA31D87E97F00803CDD /* ConversionViewController.m in Sources */,
 				6575FAA01D87E97F00803CDD /* AppDelegate.m in Sources */,
 				6575FA9D1D87E97F00803CDD /* main.m in Sources */,
 			);
@@ -514,6 +514,7 @@
 				6575FAC71D87E97F00803CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6575FAC81D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				6575FACA1D87E97F00803CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6575FACB1D87E97F00803CDD /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				6575FACD1D87E97F00803CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
