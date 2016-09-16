@@ -19,6 +19,13 @@
 
 @implementation ConversionViewController
 
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSLog(@"ConversionViewController loaded its view.");
+}
+
+
 - (IBAction)fahrenheitFieldEditingChanged:(UITextField *)textField {
     NSNumber *num = [self.numberFormatter numberFromString:textField.text];
     if (num != nil) {
